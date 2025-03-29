@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-container">
+    <div id="game">
         <h1>¡Adivina el Número!</h1>
-        <p>Estamos pensando en un número entre 1 y 100.</p>
-        <input type="number" id="guess" placeholder="Escribe tu adivinanza">
+        <p>Estamos pensando en un número entre 1 y 100</p>
+        <input type="number" id="guessInput" placeholder="Escribe tu número">
         <button onclick="checkGuess()">Comprobar</button>
-        <p id="result"></p>
+        <p id="feedback"></p>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
